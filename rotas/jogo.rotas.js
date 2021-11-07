@@ -4,24 +4,27 @@ const router = express.Router();
 var jogos = [
     {
     id: 1,
-    titulo: '1',
-    genero: '1',
-    imagem: '',
-    avaliacao: '1'
+    titulo: 'Dark Souls 3',
+    genero: 'Ação/Aventura',
+    imagem: './img/darkSouls.jpg',
+    avaliacao: '9',
+    interacao: 'NÃO JOGADO'
 },
 {
     id: 2,
-    titulo: '2',
-    genero: 'ação',
-    imagem: '2',
-    avaliacao: '2'
+    titulo: 'Resident Evil Village',
+    genero: 'Ação/Sobrevivência',
+    imagem: './img/residentevil.jpg',
+    avaliacao: '9',
+    interacao: 'NÃO JOGADO'
 },
 {
     id: 3,
-    titulo: '3',
-    genero: 'ação',
-    imagem: '3',
-    avaliacao: '3'
+    titulo: 'Pro Evolution Soccer 2011',
+    genero: 'Esporte',
+    imagem: './img/pes2011.jpg',
+    avaliacao: '8',
+    interacao: 'NÃO JOGADO'
 }];
 var message;
 var countId = 3;
